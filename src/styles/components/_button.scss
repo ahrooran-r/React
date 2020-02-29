@@ -1,0 +1,36 @@
+.btn {
+  margin: $m-size auto;
+  background: $purple;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.btn--big {
+  width: 100%;
+  font-weight: bold;
+  font-size: $l-size;
+  border-bottom: 0.6rem solid darken($purple, 10%);
+  margin-bottom: $xl-size;
+  padding: 2.4rem;
+}
+
+.btn:disabled {
+  opacity: 50%;
+  cursor: default;
+}
+
+.btn--small {
+  font-weight: 500;
+  border-bottom: 0.3rem solid darken($purple, 10%);
+  padding: $s-size;
+  margin: 0;
+}
+
+.btn--link {
+  background: none;
+  border: none;
+  color: $off-white;
+  padding: 0;
+  margin: 0 0;
+}

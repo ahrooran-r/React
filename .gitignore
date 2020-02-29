@@ -1,0 +1,4 @@
+node_modules/
+.idea/
+cmd.txt
+yarn-error.log

@@ -1,0 +1,13 @@
+.option-container__option {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding: $l-size;
+  margin: 0;
+  border-bottom: 0.1rem solid lighten($off-white, 10%);
+}
+
+.option-container {
+  padding-left: 0;
+  margin: 0;
+}

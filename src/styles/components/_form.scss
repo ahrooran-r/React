@@ -1,0 +1,17 @@
+.form {
+  display: flex;
+}
+
+.form__input {
+  background: $dark-blue;
+  border: none;
+  border-bottom: 0.3rem solid darken($dark-blue, 10%);
+  flex-grow: 1;
+  color: $off-white;
+  padding: $s-size;
+  margin: $s-size;
+
+  ::placeholder {
+    color: red;
+  }
+}
